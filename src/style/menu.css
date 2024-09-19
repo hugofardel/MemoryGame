@@ -1,0 +1,23 @@
+nav.menu ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	list-style: none;
+	margin: 1rem 0 0 0;
+	padding: 0;
+}
+
+nav.menu ul li {
+	font-size: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: all 0.2s ease;
+}
+
+nav.menu ul li a.active {
+	color: #fff;
+}
